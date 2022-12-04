@@ -1,10 +1,9 @@
 # Product_Arena_Backend
 <br>
-<br>
 Backend logic and database for doctors app, login and logout
 <br>
 <br>
-I have created a database with doctors and appointments. I have also created a logic on how to verify username and password that comes in a POST request and
+I have created a database with doctors and appointments. I have also created a logic on how to verify email address and password that comes in a POST request and
 if they are valid, it returns a JSON object with data from that doctor and all his appointments. Since I wasn't sure how the logic on frontend will work, I
 decided that it is the best to just return a JSON object, while in reality, we would redirect to another page which doesn't exist, since we don't have a frontend.
 I also haven't hashed the password, although that should be done, since we don't have a login form, and I wouldn't be able to know how the password looks like after
